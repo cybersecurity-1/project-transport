@@ -1,0 +1,290 @@
+ul li a{
+    margin-left: 20px;
+   
+}
+.btn1{
+    width: 120px;
+    min-height: 40px;
+    margin-left: 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+.background { 
+    position: absolute; 
+    width: 100%; 
+    min-height: 100%; 
+    background-image: url( 
+"MItUKcO.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    filter: blur(3px); 
+    z-index: -1; 
+} 
+.h11{
+    font-weight: bold;
+    color: #fff;
+        
+}
+#input-1{
+    width: 95%;
+    min-height: 70px; 
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    
+}
+.group{
+    position: relative;  
+}
+#btn-2{
+    width: 110px;
+    min-height: 50px;
+position: absolute;
+top: calc(50% - 25px);
+left: calc(80% - 50px);
+border: none;
+color: #fff;
+background-color: blue;
+border-radius: 5px;
+font-weight: bold;
+}
+.purecounter{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.start-items{
+    position: relative;
+}
+span::after{
+    content: "";
+    background-color: rgb(17, 151, 204);
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 20px);
+}
+.inbox1{
+    display: flex;
+    padding: 10px;
+}
+.inbox11 {
+    margin: 10px 0px 0px 15px;
+    text-align: justify;
+}
+.learn-more{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+.inbox22{
+    display: flex;
+    padding-top: 30px;
+}
+#our-service{
+    position: absolute;
+    
+  left: 0;
+  right: 0;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.253);
+
+}
+.our-service-h2{
+    position: relative;
+    top: 23px;
+    color: blue;
+    font-weight: bold;
+
+}
+.inbox4{
+    width: 100%;
+    min-height: 430px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    margin: 20px 0px;
+
+}
+.inbox41{
+    padding: 20px 30px;
+    text-align: justify;
+}
+.sec-2{
+    background-size: cover;
+    background: linear-gradient(rgba(14, 29, 52, 0.726), rgba(14, 29, 52, 0.8)), url("1000_F_343295359_HkVrckGsfeN0rJScyb1UCvxzuiBAvcl2.jpg") center center;
+    background-attachment: fixed;
+}
+.sec-2 .padding-2{
+    padding: 100px 200px;
+}
+.btn-1{
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 3px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-1:hover{
+    
+}
+/* ...................................slider....................................... */
+#slide-bg{
+    background:linear-gradient(rgb(0, 0, 0), rgba(128, 128, 128, 0.404)), url(shunya-koide-Y_Of_2lBbgU-unsplash.jpg); 
+     background-size: cover;
+}
+.face-img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    border: 6px solid rgba(128, 128, 128, 0.637);
+}
+.star{
+    display: flex;
+    justify-content: center;
+    
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width:900px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.9s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  /* .....................................last-sec...................................... */
+  #section-l{
+    background-color:#253347;
+  }
+  .resouces{
+    width: 280px;
+    height: 50px;
+    /* background-color: orange; */
+    display: flex;
+    justify-content:space-around;
+  }
+  .icons-s{
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inbox10{
+    margin-top: 70px;
+  }
+  /* ....................... */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  .myStyle {
+    background-color:rgba(0, 0, 0, 0.747);
+    padding: 5px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+  }
+  /* ............................................media-450px...................................... */
+  @media only screen and (max-width: 450px) {
+    .background{
+      min-height: 90%;
+    }
+    
+  
+    .fisrt{
+      text-align: center;
+    }
+    .fisrt p{
+      text-align: center;
+    }
+    .image-1{
+      display: none;
+    }
+    .about-us{
+      text-align: center;
+    
+    }
+    .call-to{
+      padding: 0px !important;
+      margin-top: 50px !important;
+      margin-bottom: 50px !important;
+    }
+    .call-to p{
+      margin-top: 15px;
+    }
+    .call-to .btn-1{
+      width: 190px;
+      height: 50px;
+      font-size: 14px !important;
+    }
+  }
