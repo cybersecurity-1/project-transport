@@ -15,7 +15,7 @@
 </head>
 <body>
     
-<section class="background"> </section>
+<section class="background"> 
 
     
     <nav class="navbar navbar-expand-lg navbar-dark " id="heading">
@@ -40,7 +40,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Download
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <li><a class="dropdown-item" href="#">Action</a></li>
@@ -61,7 +61,7 @@
     <div class="container">
         <div class="row">
             
-            <div class="col-lg-6 fisrt">
+            <div class="col-lg-6 fisrt" style="min-height: 300px;">
                 <h1 class="display-4 h11 mt-4">Your Lightning Fast <br>
                     Delivery Partner</h1>
                     <p class="text-white mt-4">
@@ -105,13 +105,13 @@
                     </div>
 
             </div>
-            <div class="col-lg-6 image-1">
+            <div class="col-lg-6 image-1" style="min-height: 300px;">
                 <img src="https://bootstrapmade.com/demo/templates/Logis/assets/img/hero-img.svg" class="mt-5" style="margin-left: 100px;" height="400px" alt="">
             </div>
         </div>
     </div>
-
-    <div class="container ">
+  </section>
+    <div class="container sec-container ">
       <div class="row mt-5 pt-2">
         <div class="col-lg-4 col-sm-4 second-1">
           <div class="inbox1">
@@ -505,6 +505,8 @@ function showSlides() {
 window.onscroll = function() {myFunction()};
  
 var header = document.getElementById("heading");
+ 
+
 var sticky = header.offsetTop;
 
 function myFunction() {
@@ -515,6 +517,7 @@ function myFunction() {
     header.classList.remove("sticky");
     header.classList.remove("myStyle");
   }
+  document.getElementsByClassName("sec-container").style.margin = "50px 0px"
 }
     </script>
 
